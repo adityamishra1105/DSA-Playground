@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class ReverseAray{
+public class ReverseArray{
     /**
      * @param args
      */

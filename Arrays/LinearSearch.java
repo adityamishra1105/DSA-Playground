@@ -38,5 +38,7 @@ public class LinearSearch{
             }
         }
     return -1;
+
     }
+    sc.close();
 }

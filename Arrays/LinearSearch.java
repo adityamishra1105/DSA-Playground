@@ -26,6 +26,7 @@ public class LinearSearch{
             System.out.println("Element was not found in the array.");
         }
         System.out.println("Sum of the element of the array is: "+sum);
+        sc.close();
     }
     public static int linearsearch(int[] arr, int target){        //creating a method for linear search
         if(arr.length == 0){
@@ -44,5 +45,4 @@ public class LinearSearch{
     public String toString() {
         return "LinearSearch []";
     }
-    sc.close();
 }

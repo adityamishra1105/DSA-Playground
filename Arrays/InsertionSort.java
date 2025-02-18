@@ -13,6 +13,7 @@ public class InsertionSort {
         System.out.println("Array before Insertion Sort: " + Arrays.toString(arr));
         intsertionsort(arr);
         System.out.println("Array after Insertion Sort: " + Arrays.toString(arr));
+        sc.close();
     }
     public static void intsertionsort(int[] arr){
         int n =arr.length;

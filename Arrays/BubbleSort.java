@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.Arrays;
 import java.util.Scanner;
 public class BubbleSort {
@@ -13,6 +12,8 @@ public class BubbleSort {
         System.out.println("Array before BubbleSort: " + Arrays.toString(arr));
         bubblesort(arr);
         System.out.println("Array after BubbleSort: " + Arrays.toString(arr));
+
+        sc.close();
         
     }
     public static void bubblesort(int[] arr){

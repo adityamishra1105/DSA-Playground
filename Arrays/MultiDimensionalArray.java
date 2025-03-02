@@ -39,5 +39,7 @@ public class MultiDimensionalArray {
         for(int row = 0; row < arr.length; row++){                //output, best method
             System.out.println(Arrays.toString(arr[row]));
         }
+
+        sc.close();
 }
 }

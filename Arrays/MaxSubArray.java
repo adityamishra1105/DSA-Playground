@@ -4,9 +4,6 @@ In other words, it helps you find the contiguous subarray (a sequence of consecu
  */
 
  import java.util.Scanner;
-
-import org.xml.sax.SAXException;
-
 public class MaxSubArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,6 +15,8 @@ public class MaxSubArray {
         }
         int maxSum = MaxSubArraySum(nums);
         System.out.println("Maximum contiguous sum is:" + maxSum);
+
+        sc.close();
 
     }
     public static int MaxSubArraySum(int[] nums){

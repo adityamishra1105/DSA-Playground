@@ -7,6 +7,8 @@ public class MaxValueInArray {
         int end = 3;
         System.out.println("Max in full array: " + max(arr)); // Prints max in the full array
         System.out.println("Max in range (" + start + ", " + end + "): " + maxrange(arr, start, end)); // Prints max in the range
+    
+        sc.close();
     }
 
     // Method to find the max value in the whole array

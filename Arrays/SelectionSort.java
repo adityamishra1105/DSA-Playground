@@ -14,6 +14,8 @@ public class SelectionSort {
         System.out.println("Array before Selection Sort: " + Arrays.toString(arr));
         selectionsort(arr);
         System.out.println("Array after Selection Sort: " + Arrays.toString(arr));
+
+        sc.close();
     }
 
     public static void selectionsort(int[] arr) {

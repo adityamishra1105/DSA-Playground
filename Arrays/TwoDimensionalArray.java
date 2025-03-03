@@ -14,9 +14,9 @@ public class TwoDimensionalArray {
         System.out.print("Enter the elements inside the Array: ");
         // For taking the input, we'll run two For loops
         // the first For loop iterates for number of rows and second iterates for number of columns
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                arr[i][j] = sc.nextInt();     // Taking input from the user
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < m; col++) {
+                arr[row][col] = sc.nextInt();     // Taking input from the user
             }
         }
 

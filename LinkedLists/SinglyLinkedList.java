@@ -47,6 +47,46 @@ class LinkedList{
         temp.next = newNode;
     }
 
+    void deleteFromBeginning(int number){
+        if (head == null) {
+            return;
+        }
+        head = head.next;
+    }
+
+    void deleteFromEnd(int element){
+        if (head == null || head.next == null) {
+            head = null;
+            return;
+        }
+        Node temp = head;
+        while (temp.next.next != null) {
+            temp = temp.next;
+        }
+        temp.next = null;
+    }
+
+    boolean search(int key){
+        Node temp = head;
+        while (temp != null) {
+            if (temp.data == key) {
+                return true;
+            }
+            temp = temp.next;
+        }
+        return false;
+    }
+
+    int countNodes(){
+        int count = 0;
+        Node temp = head;
+        while (temp != null) {
+            count++;
+            temp = temp.next;
+        }
+        return count;
+    }
+
     void printList(){
         Node temp = head;
         while (temp != null) {
@@ -72,7 +112,7 @@ public class SinglyLinkedList {
         // list.printList();
 
         // for taking input from the user, try this
-        System.out.println("Enter the number of Nodes: ");
+        System.out.print("Enter the number of Nodes: ");
         int n = sc.nextInt();
 
         System.out.println("Enter " + n + " values: ");
@@ -80,8 +120,32 @@ public class SinglyLinkedList {
             int data = sc.nextInt();
             list.InsertAtEnd(data);
         }
+        System.out.print("LinkedList after insertion: ");
+        list.printList();
 
-        System.out.println("LinkedList after insertion: ");
+        System.out.print("Enter the element you want to search for: ");
+        int key = sc.nextInt();
+
+        boolean found = list.search(key);
+        if (found) {
+            System.out.println("Element was found in the list");
+        } else{
+            System.out.println("Element was not found in the list");
+        }
+
+        System.out.print("Enter the element you want to delete from end: ");
+        int element  = sc.nextInt();
+        list.deleteFromEnd(element);
+
+        System.out.print("Enter the element you want to delete from the beginning: ");
+        int number = sc.nextInt();
+        list.deleteFromBeginning(number);
+
+        System.out.print("The number of elements in the LinkedList is: " + list.countNodes());
+        System.out.println();
+
+
+        System.out.print("LinkedList after operations: ");
         list.printList();
         sc.close();
 

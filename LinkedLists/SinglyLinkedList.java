@@ -24,7 +24,7 @@ class LinkedList{
 
     void InserAtPosition(int data, int pos){
         Node newNode = new Node(data);
-        
+
         // inserting at the head
         if (pos == 0) {
             newNode.next = head;
@@ -72,7 +72,6 @@ public class SinglyLinkedList {
         // list.printList();
 
         // for taking input from the user, try this
-
         System.out.println("Enter the number of Nodes: ");
         int n = sc.nextInt();
 

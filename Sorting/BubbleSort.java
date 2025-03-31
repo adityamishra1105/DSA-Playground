@@ -19,7 +19,6 @@ public class BubbleSort {
         sortBubble(arr);
         System.out.println("Array after Bubble Sort: " + Arrays.toString(arr));
         
-        
         sc.close();
     }
 

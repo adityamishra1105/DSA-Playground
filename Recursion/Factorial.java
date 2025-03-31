@@ -1,3 +1,6 @@
+// Program to find the Factorial of a number
+
+
 package Recursion;
 
 import java.util.Scanner;
@@ -11,6 +14,8 @@ public class Factorial {
         printFact(n);
         sc.close();
     }
+
+    // Finding the factorial of the number
     static int factNum(int n){
         if (n <= 1) {
             return n;
@@ -18,6 +23,7 @@ public class Factorial {
         return n * factNum(n - 1);
     }
 
+    // Printing the factorial
     static void printFact(int n){
         System.out.println("The factorial of the number " + n + " is: " + factNum(n));
     }

@@ -6,7 +6,7 @@ This repository is a structured collection of my DSA practice in Java. Each conc
 
 ## 📁 Folder Structure
 
-The repository is organized topic-wise for clarity and focus:
+The repository is organised topic-wise for clarity and focus:
 
 DSA-Playground
 ├── Arrays

@@ -42,7 +42,6 @@
 <body>
 
   <h1>DSA Playground – My Journey in Data Structures & Algorithms</h1>
-
   <p>This repository is a structured collection of my DSA practice in Java. Each concept is categorized into separate folders, making it easier to navigate and track progress.</p>
 
   <div class="section">
@@ -64,13 +63,13 @@
   <div class="section">
     <h2>Topics & Concepts Covered</h2>
     <ul>
-      <li><strong>Arrays:</strong> Searching, Sorting, Sliding Window, Two Pointers</li>
-      <li><strong>Linked Lists:</strong> Singly & Doubly Linked Lists, Fast-Slow Pointers</li>
-      <li><strong>Recursion & Backtracking:</strong> Divide & Conquer, Subset Problems</li>
-      <li><strong>Sorting Algorithms:</strong> Merge Sort, Quick Sort, Counting Sort</li>
-      <li><strong>Trees & BST:</strong> Binary Tree Traversals, BST Operations</li>
-      <li><strong>Graphs:</strong> BFS, DFS, Dijkstra’s Algorithm</li>
-      <li><strong>Dynamic Programming:</strong> Knapsack, Longest Common Subsequence</li>
+      <li>Arrays: Searching, Sorting, Sliding Window, Two Pointers</li>
+      <li>Linked Lists: Singly & Doubly Linked Lists, Fast-Slow Pointers</li>
+      <li>Recursion & Backtracking: Divide & Conquer, Subset Problems</li>
+      <li>Sorting Algorithms: Merge Sort, Quick Sort, Counting Sort</li>
+      <li>Trees & BST: Binary Tree Traversals, BST Operations</li>
+      <li>Graphs: BFS, DFS, Dijkstra’s Algorithm</li>
+      <li>Dynamic Programming: Knapsack, Longest Common Subsequence</li>
     </ul>
     <p>More topics will be added as I progress.</p>
   </div>

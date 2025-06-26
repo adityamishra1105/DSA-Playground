@@ -1,6 +1,6 @@
 # DSA Playground – My Journey in Data Structures & Algorithms
 
-This repository is a structured collection of my DSA practice in Java. Each concept is categorized into separate folders, making it easier to navigate, understand, and track progress.
+This repository is a structured collection of my DSA practice in Java. Each concept is categorised into separate folders, making it easier to navigate, understand, and track progress.
 
 ---
 

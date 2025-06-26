@@ -1,13 +1,16 @@
-# DSA Playground – My Journey in Data Structures & Algorithms
+<h1 align="center">📘 DSA Playground – My Journey in Data Structures & Algorithms</h1>
 
-This repository is a structured collection of my DSA practice in Java. Each concept is categorised into separate folders, making it easier to navigate, understand, and track progress.
+<p align="center">
+  <i>A structured collection of my DSA practice in Java – categorized, organized, and constantly growing.</i>
+</p>
 
----
+<hr/>
 
-## 📁 Folder Structure
+<h2>📁 Folder Structure</h2>
 
-The repository is organised topic-wise for clarity and focus:
+<p>The repository is organised topic-wise for clarity and focus:</p>
 
+<pre>
 DSA-Playground
 ├── Arrays
 ├── LinkedLists
@@ -18,58 +21,68 @@ DSA-Playground
 ├── DynamicProgramming
 ├── README.md
 ├── .gitignore
+</pre>
 
-Each folder contains Java implementations of relevant algorithms and problems related to that topic.
+<p>Each folder contains Java implementations of relevant algorithms and problems related to that topic.</p>
 
----
+<hr/>
 
-## 🔍 Topics & Concepts Covered
+<h2>🔍 Topics & Concepts Covered</h2>
 
-- Arrays – Searching, Sorting, Sliding Window, Two Pointers  
-- Linked Lists – Singly & Doubly Linked Lists, Fast-Slow Pointers  
-- Recursion & Backtracking – Divide & Conquer, Subset Problems  
-- Sorting Algorithms – Merge Sort, Quick Sort, Counting Sort  
-- Trees & BST – Binary Tree Traversals, BST Operations  
-- Graphs – BFS, DFS, Dijkstra’s Algorithm  
-- Dynamic Programming – Knapsack, Longest Common Subsequence  
+<ul>
+  <li><strong>Arrays</strong> – Searching, Sorting, Sliding Window, Two Pointers</li>
+  <li><strong>Linked Lists</strong> – Singly & Doubly Linked Lists, Fast-Slow Pointers</li>
+  <li><strong>Recursion & Backtracking</strong> – Divide & Conquer, Subset Problems</li>
+  <li><strong>Sorting Algorithms</strong> – Merge Sort, Quick Sort, Counting Sort</li>
+  <li><strong>Trees & BST</strong> – Binary Tree Traversals, BST Operations</li>
+  <li><strong>Graphs</strong> – BFS, DFS, Dijkstra’s Algorithm</li>
+  <li><strong>Dynamic Programming</strong> – Knapsack, Longest Common Subsequence</li>
+</ul>
 
-More topics and optimizations will be added regularly.
+<p>More topics and optimizations will be added regularly.</p>
 
----
+<hr/>
 
-## 🚀 How to Use This Repository
+<h2>🚀 How to Use This Repository</h2>
 
-1. Clone the repository
-   git clone https://github.com/adityamishra1105/DSA-Playground.git
+<ol>
+  <li>Clone the repository:<br/>
+    <code>git clone https://github.com/adityamishra1105/DSA-Playground.git</code>
+  </li>
+  <li>Navigate into the project:<br/>
+    <code>cd DSA-Playground</code>
+  </li>
+  <li>Explore by topic:<br/>
+    Open any folder to dive into the specific Java implementations.
+  </li>
+</ol>
 
-2. Navigate into the project
-   cd DSA-Playground
+<hr/>
 
-3. Explore by topic
-   Open any folder to dive into the specific Java implementations.
+<h2>🤝 Contributing & Suggestions</h2>
 
----
+<p>If you find better approaches, optimizations, or want to contribute:</p>
 
-## 🤝 Contributing & Suggestions
+<ul>
+  <li>Fork this repository</li>
+  <li>Create a pull request with your changes</li>
+  <li>Or simply <a href="https://github.com/adityamishra1105/DSA-Playground/issues">open an issue</a> with your suggestions</li>
+</ul>
 
-If you find better approaches, optimizations, or want to contribute:
+<p>All constructive feedback and contributions are welcome!</p>
 
-- Fork this repository  
-- Create a pull request with your changes  
-- Or simply open an issue with your suggestions  
+<hr/>
 
-All constructive feedback and contributions are welcome!
+<h2>📬 Connect With Me</h2>
 
----
+<ul>
+  <li>Email: <a href="mailto:adityaamishra11@gmail.com">adityaamishra11@gmail.com</a></li>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/aditya-mishra-370393257/" target="_blank">Aditya Mishra</a></li>
+</ul>
 
-## 📬 Connect With Me
+<hr/>
 
-Email: adityaamishra11@gmail.com  
-LinkedIn: https://www.linkedin.com/in/aditya-mishra-370393257/
+<h2>⭐ Motivation</h2>
 
----
-
-## ⭐ Motivation
-
-If this repository helps you in any way, consider giving it a star ⭐  
-It motivates me to keep learning, solving, and sharing more!
+<p>If this repository helps you in any way, consider giving it a <strong>star ⭐</strong>.<br/>
+It motivates me to keep learning, solving, and sharing more!</p>

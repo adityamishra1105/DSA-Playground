@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class KadanesAlgo {
 
     public static void main(String[] args) {
@@ -11,10 +10,9 @@ public class KadanesAlgo {
             arr[i] = sc.nextInt();
         }
 
-        sc.close();
         System.out.println(kadanes(arr));
-
-
+        sc.close();
+  
     }
 
     static int kadanes(int[] arr){

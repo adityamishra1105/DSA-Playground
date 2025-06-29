@@ -1,0 +1,22 @@
+# 🔧 Java Class Files
+*.class
+
+# ⚙️ Build Directories
+out/
+bin/
+
+# 🧠 IDE Configuration (IntelliJ / VS Code)
+*.iml
+.idea/
+.vscode/
+
+# 🗑️ System Files (macOS / Windows)
+.DS_Store
+Thumbs.db
+
+# 📄 Logs
+*.log
+
+# 🧪 Test Reports (if you ever add JUnit, Maven, etc.)
+test-output/
+target/

@@ -21,6 +21,7 @@ DSA-Playground
 ├── DynamicProgramming
 ├── README.md
 ├── .gitignore
+├── LICENSE
 </pre>
 
 <p>Each folder contains Java implementations of relevant algorithms and problems related to that topic.</p>

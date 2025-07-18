@@ -19,5 +19,4 @@ Thumbs.db
 
 # 🧪 Test Reports (if you ever add JUnit, Maven, etc.)
 test-output/
-target/
-  
+target/ 

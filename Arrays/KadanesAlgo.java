@@ -9,12 +9,9 @@ public class KadanesAlgo {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-
         System.out.println(kadanes(arr));
         sc.close();
-  
     }
-
     static int kadanes(int[] arr){
         // we also have an sol for this which is descripted below
 
@@ -26,13 +23,10 @@ public class KadanesAlgo {
         //}
         // return max;
 
-
-
         // Optimized solution
         int n = arr.length;
         int max = arr[0];
         int curr = 0;
-
         for (int i = 0; i < n; i++) {
             if (curr + arr[i] > arr[i]) {
                 curr = curr + arr[i];

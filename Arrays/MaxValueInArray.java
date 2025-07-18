@@ -10,18 +10,16 @@ public class MaxValueInArray {
     
         sc.close();
     }
-
     // Method to find the max value in the whole array
     public static int max(int[] arr) {
-        int max = arr[0]; // Assuming the first element is the max
+        int max = arr[0]; // assuming the first element is the max
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i]; // Update max if a larger element is found
             }
         }
-        return max; // Return the max value found
+        return max; // Return the max val
     }
-
     // Method to find the max value in a specific range of indices in the array
     public static int maxrange(int[] arr, int start, int end) {
         int max = arr[start]; // Set the initial max to the start index

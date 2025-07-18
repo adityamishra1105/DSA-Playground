@@ -1,8 +1,7 @@
 /*
-Kadane's Algorithm is used to find the maximum sum subarray within a one-dimensional array of numbers. 
+Kadane's Algorithm is used to find the maximum sum subarray within a one-dimensional array of numbers.
 In other words, it helps you find the contiguous subarray (a sequence of consecutive elements) that has the largest sum.
  */
-
 import java.util.Scanner;
 public class MaxSubArray {
     public static void main(String[] args) {
@@ -17,6 +16,7 @@ public class MaxSubArray {
         System.out.println("Maximum contiguous sum is:" + maxSum);
         sc.close();
     }
+    
     public static int MaxSubArraySum(int[] nums){
         int maxCurrent = nums[0];
         int maxGlobal = nums[0];

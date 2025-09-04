@@ -1,12 +1,12 @@
-<h1 align="center">📘 DSA Playground – My Journey in Data Structures & Algorithms</h1>
+<h1 align="center"> DSA Playground – My Journey in Data Structures & Algorithms</h1>
 
 <p align="center">
-  <i>A structured collection of my DSA practice in Java – categorized, organized, and constantly growing.</i>
+  <i>A structured collection of my DSA practice in Java – categorised, organised, and constantly growing.</i>
 </p>
 
 <hr/>
 
-<h2>📁 Folder Structure</h2>
+<h2> Folder Structure</h2>
 
 <p>The repository is organised topic-wise for clarity and focus:</p>
 
@@ -28,7 +28,7 @@ DSA-Playground
 
 <hr/>
 
-<h2>🔍 Topics & Concepts Covered</h2>
+<h2> Topics & Concepts Covered</h2>
 
 <ul>
   <li><strong>Arrays</strong> – Searching, Sorting, Sliding Window, Two Pointers</li>
@@ -40,11 +40,11 @@ DSA-Playground
   <li><strong>Dynamic Programming</strong> – Knapsack, Longest Common Subsequence</li>
 </ul>
 
-<p>More topics and optimizations will be added regularly.</p>
+<p>More topics and optimisations will be added regularly.</p>
 
 <hr/>
 
-<h2>🚀 How to Use This Repository</h2>
+<h2> How to Use This Repository</h2>
 
 <ol>
   <li>Clone the repository:<br/>
@@ -60,9 +60,9 @@ DSA-Playground
 
 <hr/>
 
-<h2>🤝 Contributing & Suggestions</h2>
+<h2> Contributing & Suggestions</h2>
 
-<p>If you find better approaches, optimizations, or want to contribute:</p>
+<p>If you find better approaches, optimisations, or want to contribute:</p>
 
 <ul>
   <li>Fork this repository</li>
@@ -74,7 +74,7 @@ DSA-Playground
 
 <hr/>
 
-<h2>📬 Connect With Me</h2>
+<h2> Connect With Me</h2>
 
 <ul>
   <li>Email: <a href="mailto:adityaamishra11@gmail.com">adityaamishra11@gmail.com</a></li>
@@ -83,7 +83,12 @@ DSA-Playground
 
 <hr/>
 
-<h2>⭐ Motivation</h2>
+<h2> Motivation</h2>
 
-<p>If this repository helps you in any way, consider giving it a <strong>star ⭐</strong>.<br/>
+<p>If this repository helps you in any way, consider giving it a <strong>star </strong>.<br/>
 It motivates me to keep learning, solving, and sharing more!</p>
+
+## By 
+Aditya Mishra. 
+Happy Coding </>.
+
